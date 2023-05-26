@@ -8,7 +8,7 @@ function About(props) {
       <h2>About Me</h2>
       {bio? null: <p>{props.bio}</p>}
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
-      <Links gHub={props.gHub} linkedIn={props.linkedIn} />
+      <Links github={props.github} linkedin={props.linkedin} />
     </div>
   );
 }
